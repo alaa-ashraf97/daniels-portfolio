@@ -1,0 +1,22 @@
+/* Responsive nav link ===========*/
+/* Mobile styles ===========*/
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+}
+
+/* Desktop styles ===========*/
+
+@media (min-width: 991px) {
+    .container {
+        padding-inline: 80px;
+    }
+}
+
+@media (min-width: 790px) {
+    header .container .row h2 {
+        font-size: 50px !important;
+    }
+}
